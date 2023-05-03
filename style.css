@@ -1,0 +1,135 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+html {
+    overflow-x: hidden !important; }
+.containeer{
+    max-width: 60%;
+    margin: auto;
+    width: 100%;
+    padding: 3rem 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+.sec1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec2{
+    margin-top: 5rem;
+}
+.btnn button{
+    padding: 1rem;
+    background-color: #ff1493;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+}
+.btnn button a{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+.btnn span a{
+    color: #ff1493;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1rem;
+}
+/* .gst{
+    width: 25%;
+    margin-left: auto;
+} */
+.sec3{
+    margin-top: 5rem;
+}
+.prod{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #777;
+}
+.prod-detail{
+    flex-basis: 75%;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.prod span{
+    flex-basis: 25%;
+    text-align: right;
+}
+.order{
+    width: 60%;
+    margin-left: auto;
+    margin-top: 2rem;
+}
+
+/* table */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: none;
+    text-align: left;
+    padding: 8px;
+  }
+
+  td:nth-child(even){
+    text-align: right;
+  }
+
+  tr:last-child td{
+    border-top: 1px solid #777;
+    padding-top: 1rem;
+  }
+/* ------------------- */
+.sec4{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+
+}
+.address{
+    display: flex;
+}
+
+.sec5{
+    border-top: 1px solid #777;
+}
+.sec5 p{
+    text-align: center;
+}
+.sec5 a{
+    text-decoration: none;
+    color: #ff1493;
+}
+
+
+@media only screen and (max-width: 768px){
+    .containeer{
+        max-width: 90%;
+        width: 100%;
+        /* padding: 1rem; */
+    }
+    .sec1{
+        flex-direction: column;
+    }
+    .sec1 p{
+        text-align: left !important;
+    }
+    .sec2{
+        margin-top: 2rem;
+    }
+    .order{
+        width: 80%;
+    }
+    .gst{
+        width: 100%;
+    }
+}
